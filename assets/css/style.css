@@ -26,6 +26,10 @@ p {
   margin-top: 10px;
 }
 
+.hide {
+  display: none;
+}
+
 header {
   margin: 30px;
   text-align: center;
