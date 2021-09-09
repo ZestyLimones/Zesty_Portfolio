@@ -82,6 +82,8 @@ section {
   float: right;
   border-radius: 50%;
   margin: 25px;
+  height: 250px;
+  width: 250px;
   /* justify-content: flex-end; */
 }
 
