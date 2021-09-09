@@ -43,18 +43,17 @@ nav {
   position: relative;
   display: flex;
   flex: 0 0 15%;
-  align-items: center;
   justify-content: center;
 }
 
 nav ul {
+  position: fixed;
   align-items: center;
 }
 
 nav ul li {
   font-size: 30px;
   margin-top: 20px;
-  color: yellow;
 }
 
 nav ul li a {
@@ -69,7 +68,7 @@ nav ul li a {
 section {
   margin: 10px;
   /* height: 500px; */
-  border: blue solid 2px;
+  height: 100%;
 }
 
 #bio-section {
@@ -94,11 +93,23 @@ section {
 
 .card {
   padding: 20px;
-  border: solid 2px red;
+  border-radius: 15%;
+  margin: 5px;
+  height: 100%;
+  background-color: rgb(99, 9, 9, 0.5);
+}
+
+.card-content {
+  padding: 150px;
+  color: yellow;
+}
+
+.project-content {
+  color: rgb(175, 8, 175);
 }
 
 .contact-links {
-  margin-top: 15px;
+  margin-top: 35px;
 }
 
 .contact-links li {
