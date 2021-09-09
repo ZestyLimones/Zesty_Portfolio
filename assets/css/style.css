@@ -2,6 +2,7 @@
   font-family: 'Shadows Into Light', cursive;
   background-color: black;
   color: white;
+  /* display: flex; */
 }
 
 h1 {
@@ -17,4 +18,25 @@ a {
   font-family: 'Kalam', cursive;
   font-size: 20px;
   margin-top: 10px;
+}
+
+header {
+  margin: 30px;
+  text-align: center;
+}
+
+section {
+  display: flex;
+}
+
+nav {
+  position: relative;
+  margin: 50px;
+}
+
+#main-content {
+  /* display: flex; */
+}
+
+.card {
 }
