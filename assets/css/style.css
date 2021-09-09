@@ -1,6 +1,10 @@
 * {
   font-family: 'Shadows Into Light', cursive;
+}
+
+body {
   background-color: black;
+  background-image: linear-gradient(to right, black, grey);
   color: white;
 }
 
@@ -49,6 +53,11 @@ nav ul {
 
 nav ul li {
   margin-top: 20px;
+  color: yellow;
+}
+
+nav ul li a {
+  color: white;
 }
 
 #portfolio-content {
@@ -58,6 +67,7 @@ nav ul li {
 
 section {
   margin: 10px;
+  height: 100%;
 }
 
 #bio-section {
@@ -71,4 +81,9 @@ section {
   border-radius: 50%;
   margin: 25px;
   justify-content: flex-end;
+}
+
+.card {
+  padding: 20px;
+  border: solid 2px red;
 }
