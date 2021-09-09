@@ -16,7 +16,7 @@
         <header>
             <h1>Zesty Portfolio</h1>
         </header>
-        <section>
+        <div id="main-content">
             <nav>
                 <ul>
                     <li><a href="#bio-section">About Me</a></li>
@@ -24,8 +24,10 @@
                     <li><a href="#contact-me-section">Contact Me</a></li>
                 </ul>
             </nav>
-            <div id='main-content'>
-                <div id="bio-section">
+            <div id='portfolio-content'>   
+                <section id="bio-section">
+                    <h2>About Me</h2>
+                    <img src="https://via.placeholder.com/250x250?text=Here+is+my+selfie" alt="" id="me-image">
                     <div class="card">
                         <div class="card-content">
                             <p>Full Stack web developer skilled in HTML5, CSS3, Git, and GitHub. Thrives on the challenge of learning new technologies and the satisfaction of solving difficult problems with creative solutions. I’m currently enrolled in a Full Stack bootcamp through the University of Denver to expand my skills and move into a Web Developer role. </p>
@@ -34,12 +36,13 @@
                         </div>
                     </div>
  
-                </div>
-                <div id="project-section">
+                </section>
+                <section id="project-section">
+                    <h2>Projects</h2>
                     <div id="projects">
                         <div id="project-1" class="projects">
                             <div class="card">
-                                <h2 class="card-title">Project Title here</h2>
+                                <h3 class="card-title">Project Title here</h2>
                                 <img src="https://via.placeholder.com/400x400?text=Here+is+my+first+project" alt="placeholder image of my first project"" alt="" class="card-image">
                                 <div class="card-content">
                                     <p class="card-text">project description</p>
@@ -51,8 +54,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div id="contact-me-section">
+                </section>
+                <section id="contact-me-section">
+                    <h2>Contact Me</h2>
                     <div class="card">
                         <div class="card-content">
                             <ul class="contact-links">
@@ -62,7 +66,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
         </section>
         <footer>

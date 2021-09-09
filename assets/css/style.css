@@ -2,7 +2,6 @@
   font-family: 'Shadows Into Light', cursive;
   background-color: black;
   color: white;
-  /* display: flex; */
 }
 
 h1 {
@@ -10,6 +9,13 @@ h1 {
 }
 
 h2 {
+  font-size: 35px;
+  text-align: left;
+  width: 400px;
+  border-bottom: 2px solid white;
+}
+
+h3 {
   font-size: 25px;
 }
 
@@ -25,18 +31,44 @@ header {
   text-align: center;
 }
 
-section {
+#main-content {
   display: flex;
 }
 
 nav {
   position: relative;
-  margin: 50px;
+  display: flex;
+  flex: 0 0 15%;
+  align-items: center;
+  justify-content: center;
 }
 
-#main-content {
+nav ul {
+  align-items: center;
+}
+
+nav ul li {
+  margin-top: 20px;
+}
+
+#portfolio-content {
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+section {
+  margin: 10px;
+}
+
+#bio-section {
+  /* text-align: center; */
   /* display: flex; */
+  /* flex-wrap: wrap; */
 }
 
-.card {
+#me-image {
+  float: right;
+  border-radius: 50%;
+  margin: 25px;
+  justify-content: flex-end;
 }
