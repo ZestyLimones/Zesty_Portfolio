@@ -6,19 +6,19 @@ const contactMeLink = document.getElementById('contact-me-link');
 const contactMeSection = document.getElementById('contact-me-section');
 
 bioLink.onclick = function () {
-  bioSection.removeClass('hide');
-  projectSection.addClass('hide');
-  contactMeSection.addClass('hide');
+  bioSection.classList.remove('hide');
+  projectSection.classList.add('hide');
+  contactMeSection.classList.add('hide');
 };
 
 projectLink.onclick = function () {
-  bioSection.addClass('hide');
-  projectSection.removeClass('hide');
-  contactMeSection.addClass('hide');
+  bioSection.classList.add('hide');
+  projectSection.classList.remove('hide');
+  contactMeSection.classList.add('hide');
 };
 
 contactMeLink.onclick = function () {
-  bioSection.addClass('hide');
-  projectSection.addClass('hide');
-  contactMeSection.removeClass('hide');
+  bioSection.classList.add('hide');
+  projectSection.classList.add('hide');
+  contactMeSection.classList.remove('hide');
 };
