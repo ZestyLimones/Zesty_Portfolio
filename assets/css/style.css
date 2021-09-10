@@ -123,6 +123,7 @@ section {
 .card-image {
   height: 400px;
   width: 400px;
+  border-radius: 15%;
 }
 
 /* card-links {
