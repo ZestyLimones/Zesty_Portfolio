@@ -31,6 +31,10 @@ p {
   margin-top: 10px;
 }
 
+a {
+  color: white;
+}
+
 .hide {
   display: none;
 }
@@ -92,8 +96,11 @@ section {
 }
 
 .projects {
+  margin: 15px;
   display: inline-flex;
   flex-wrap: wrap;
+  height: 600px;
+  width: 500px;
 }
 
 .card {
@@ -112,6 +119,15 @@ section {
 .project-content {
   color: white;
 }
+
+.card-image {
+  height: 400px;
+  width: 400px;
+}
+
+/* card-links {
+  display: ;
+} */
 
 .contact-links {
   margin-top: 50px;
