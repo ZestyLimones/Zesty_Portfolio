@@ -275,6 +275,7 @@ section {
 
   section {
     width: 100%;
+    margin: 0px;
   }
 
   /* #bio-section { */
@@ -288,11 +289,11 @@ section {
   }
 
   .projects {
-    margin: 15px;
+    margin: 10px auto;
     display: inline-flex;
     flex-wrap: wrap;
     height: 500px;
-    width: 300px;
+    width: 100%;
   }
 
   .card {
