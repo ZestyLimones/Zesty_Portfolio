@@ -119,6 +119,7 @@ section {
   margin: 25px;
   height: 250px;
   width: 250px;
+  box-shadow: 10px 10px 8px rgba(40, 75, 233, 0.466);
 }
 
 .projects {
@@ -215,6 +216,10 @@ section {
 
   span {
     font-size: 23px;
+  }
+
+  nav ul li {
+    font-size: 20px;
   }
 
   section {
