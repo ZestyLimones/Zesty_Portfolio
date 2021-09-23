@@ -1,5 +1,5 @@
 body {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Dosis', sans-serif;
   background-color: black;
   background-image: linear-gradient(
     to right,
@@ -10,11 +10,13 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 55px;
+  text-shadow: 5px 5px 8px rgb(233, 40, 223);
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 40px;
+  text-shadow: 3px 3px 8px rgb(233, 40, 223);
   text-align: left;
   width: 400px;
   border-bottom: 2px solid white;
@@ -22,17 +24,23 @@ h2 {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 30px;
+  text-shadow: 3px 3px 8px rgb(233, 40, 223);
 }
 
 p {
-  font-family: 'Kalam', cursive;
-  font-size: 20px;
+  font-size: 25px;
   margin-top: 10px;
+}
+span {
+  font-size: 28px;
+  font-weight: bolder;
+  text-shadow: 3px 3px 8px rgb(233, 40, 223);
 }
 
 a {
   color: white;
+  text-shadow: 2px 5px 8px rgb(233, 40, 88);
 }
 
 .hide {
@@ -99,7 +107,7 @@ section {
   margin: 15px;
   display: inline-flex;
   flex-wrap: wrap;
-  height: 600px;
+  height: 650px;
   width: 500px;
 }
 
@@ -109,6 +117,11 @@ section {
   margin: 5px;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 8px rgba(40, 233, 114, 0.466);
+}
+
+.card-title {
+  margin: 10px;
 }
 
 .card-content {
@@ -118,6 +131,11 @@ section {
 
 .project-content {
   color: white;
+}
+
+.card-links {
+  display: flex;
+  justify-content: space-around;
 }
 
 .card-image {
@@ -268,12 +286,16 @@ section {
 
 @media screen and (max-width: 600px) {
   p {
-    font-family: 'Kalam', cursive;
     font-size: 20px;
     margin-top: 10px;
   }
 
+  span {
+    font-size: 23px;
+  }
+
   section {
+    padding: 5px;
     width: 100%;
     margin: 0px;
   }
@@ -297,19 +319,19 @@ section {
     width: 100%;
   }
 
-  .card-title {
+  /* .card-title {
     margin: 10px;
-  }
+  } */
 
-  .card-links {
+  /* .card-links {
     display: flex;
     justify-content: space-around;
-  }
+  } */
 
   .card {
     padding: 5px;
     /* width: 100%; */
-    border-radius: 5%;
+    border-radius: 10%;
     margin: 15px;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
