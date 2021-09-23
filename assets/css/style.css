@@ -59,7 +59,17 @@ a {
 }
 
 .hide {
-  display: none;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: height 350ms ease-in-out;
+}
+
+.show {
+  display: block;
+  height: auto;
+  opacity: 1;
+  transition: opacity 1s ease;
 }
 
 header {
