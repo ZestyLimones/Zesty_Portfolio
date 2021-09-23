@@ -236,7 +236,7 @@ section {
     margin: 10px auto;
     display: inline-flex;
     flex-wrap: wrap;
-    height: 500px;
+    height: 550px;
     width: 100%;
   }
 
@@ -260,5 +260,11 @@ section {
     height: 280px;
     width: 280px;
     border-radius: 15%;
+  }
+
+  .contact-links li {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
   }
 }
