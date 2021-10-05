@@ -132,7 +132,7 @@ section {
 
 .card {
   padding: 20px;
-  border-radius: 15%;
+  border-radius: 35px;
   margin: 5px;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
