@@ -2,7 +2,7 @@
 
 ## Description
 
-This is my current portfolio that I created using basic HTML, CSS, and JavaScript. The portfolio assignments we previously worked on through the University of Denver Boot Camps did not feel like my design and I wanted to showcase something that felt more personalized. I added colors, javascript, a pinch of animation, and a dash of flare!
+This is my current portfolio that I created using basic HTML, CSS, and JavaScript. The portfolio assignments we previously worked on through the University of Denver Boot Camps did not feel like my design and I wanted to showcase something that felt more personalized. I added colors 🌈, some javascript 💻, a pinch of animation 🤏, and a dash of flare! ✨
 
 Allthough this portfolio page doesn't demonstrate all my coding capabilities it was fun to work on.
 
