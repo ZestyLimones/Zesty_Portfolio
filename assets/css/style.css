@@ -253,6 +253,10 @@ section {
     margin-top: 25px;
     display: flex;
   }
+
+  .modal-content {
+    width: 500px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -313,5 +317,9 @@ section {
     display: flex;
     justify-content: center;
     margin: 10px;
+  }
+
+  .modal-content {
+    width: 300px;
   }
 }
