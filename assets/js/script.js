@@ -32,17 +32,20 @@ contactMeLink.onclick = function () {
   contactMeSection.classList.add('show');
 };
 
-var modal = document.querySelector('.project-modal');
-var btn = document.querySelector('.details-btn');
-var span = document.getElementsByClassName('close')[0];
-btn.onclick = function () {
-  modal.style.display = 'block';
-};
-span.onclick = function () {
-  modal.style.display = 'none';
-};
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = 'none';
+const modal = document.querySelector('.modal');
+const trigger = document.querySelector('.trigger');
+const closeButton = document.querySelector('.close-button');
+
+function toggleModal() {
+  modal.classList.toggle('show-modal');
+}
+
+function windowOnClick(event) {
+  if (event.target === modal) {
+    toggleModal();
   }
-};
+}
+
+trigger.addEventListener('click', toggleModal);
+closeButton.addEventListener('click', toggleModal);
+window.addEventListener('click', windowOnClick);
