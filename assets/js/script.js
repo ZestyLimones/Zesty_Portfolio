@@ -32,20 +32,15 @@ contactMeLink.onclick = function () {
   contactMeSection.classList.add('show');
 };
 
-const modal = document.querySelector('.modal');
-const trigger = document.querySelector('.trigger');
-const closeButton = document.querySelector('.close-button');
+const triggers = document.getElementsByClassName('trigger');
+const triggerArray = Array.from(triggers).entries();
+const modals = document.getElementsByClassName('modal');
+const closeButtons = document.getElementsByClassName('close-button');
 
-function toggleModal() {
-  modal.classList.toggle('show-modal');
+for (let [index, trigger] of triggerArray) {
+  const toggleModal = () => {
+    modals[index].classList.toggle('show-modal');
+  };
+  trigger.addEventListener('click', toggleModal);
+  closeButtons[index].addEventListener('click', toggleModal);
 }
-
-function windowOnClick(event) {
-  if (event.target === modal) {
-    toggleModal();
-  }
-}
-
-trigger.addEventListener('click', toggleModal);
-closeButton.addEventListener('click', toggleModal);
-window.addEventListener('click', windowOnClick);
