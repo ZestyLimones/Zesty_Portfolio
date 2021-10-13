@@ -202,7 +202,7 @@ section {
   background-color: rgba(29, 255, 180, 0.9);
   box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.466);
   padding: 15px;
-  border-radius: 15%;
+  border-radius: 35px;
 }
 
 .close-button {
@@ -210,7 +210,7 @@ section {
   padding: 10px;
   font-size: 50px;
   line-height: 1.5rem;
-  /* text-align: center; */
+  text-align: center;
   cursor: pointer;
   border-radius: 15%;
   background-color: black;
