@@ -42,9 +42,9 @@ button {
   padding: 4px;
   border-radius: 5px;
   color: white;
-  background-color: rgb(102, 18, 98);
-  text-shadow: 3px 3px 8px rgb(233, 40, 223);
-  box-shadow: 5px 5px 8px rgba(233, 40, 137, 0.466);
+  background-color: rgb(81, 32, 255);
+  text-shadow: 3px 3px 8px rgb(32, 120, 252);
+  box-shadow: 3px 3px 10px rgb(62, 162, 255);
   transition: all 0.2s ease-in-out;
 }
 
@@ -150,6 +150,7 @@ section {
 .card-links {
   display: flex;
   justify-content: space-around;
+  margin: 10px;
 }
 
 .card-image {
@@ -195,11 +196,12 @@ section {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: white;
-  padding: 1rem 1.5rem;
-  width: 24rem;
-  border-radius: 0.5rem;
+  background-color: rgba(40, 233, 114, 0.9);
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 15px;
 }
+
 .close-button {
   float: right;
   width: 1.5rem;
