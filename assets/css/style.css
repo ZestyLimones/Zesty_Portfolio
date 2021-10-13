@@ -150,6 +150,9 @@ section {
 .card-links {
   display: flex;
   justify-content: space-around;
+}
+
+.card-links button {
   margin: 10px;
 }
 
