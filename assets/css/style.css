@@ -173,7 +173,12 @@ section {
   transition: all 0.2s ease-in-out;
 }
 
-.contact-links li:hover {
+#email {
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-links li:hover,
+#email:hover {
   font-size: 30px;
   transform: scale(1.3);
 }
