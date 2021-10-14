@@ -22,7 +22,7 @@ Allthough this portfolio page doesn't demonstrate all my coding capabilities it 
 
 ## Deployed Site
 
-https://zestylimones.github.io/Zesty_Portfolio/
+https://zestylimones.com
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
