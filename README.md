@@ -14,6 +14,15 @@ Allthough this portfolio page doesn't demonstrate all my coding capabilities it 
 
 https://zestylimones.github.io/Zesty_Portfolio/
 
+## Tech Used
+
+<div style='margin: 1em 0;'>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="4%" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="4%" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="4%" />
+
+</div>
+
 ## Questions
 
 If you have any questions you can reach me via:
