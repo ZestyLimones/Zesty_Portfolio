@@ -40,7 +40,7 @@ https://zestylimones.com
 
 If you have any questions you can reach me via:
 
-- email: michlimones@gmail.com
+- email: micheal@zestylimones.com
 - LinkedIn: https://www.linkedin.com/in/micheal-limones/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
